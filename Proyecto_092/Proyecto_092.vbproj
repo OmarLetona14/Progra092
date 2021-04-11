@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB669CB0-B797-4E78-8FD8-0BE02F5B1FE8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Proyecto_092.My.MyApplication</StartupObject>
+    <RootNamespace>Proyecto_092</RootNamespace>
+    <AssemblyName>Proyecto_092</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Proyecto_092.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Proyecto_092.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.23\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion\Connector.vb" />
+    <Compile Include="Conexion\Query.vb" />
+    <Compile Include="helper\Utilities.vb" />
+    <Compile Include="Modelos\Cliente.vb" />
+    <Compile Include="Modelos\Cuenta.vb" />
+    <Compile Include="Modelos\CuentaView.vb" />
+    <Compile Include="Modelos\TipoCuenta.vb" />
+    <Compile Include="Modelos\TipoTransaccion.vb" />
+    <Compile Include="Modelos\TipoUsuario.vb" />
+    <Compile Include="Modelos\Transaccion.vb" />
+    <Compile Include="Modelos\TransaccionView.vb" />
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Vistas\AccountTypeAdmin.Designer.vb">
+      <DependentUpon>AccountTypeAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\AccountTypeAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\AdminDashboard.Designer.vb">
+      <DependentUpon>AdminDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\AdminDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\ClienteAdmin.Designer.vb">
+      <DependentUpon>ClienteAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\ClienteAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\CuentaAdmin.Designer.vb">
+      <DependentUpon>CuentaAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\CuentaAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Deposito.Designer.vb">
+      <DependentUpon>Deposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Deposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\MyAccount.Designer.vb">
+      <DependentUpon>MyAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\MyAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\ReportesGenerales.Designer.vb">
+      <DependentUpon>ReportesGenerales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\ReportesGenerales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Retiro.Designer.vb">
+      <DependentUpon>Retiro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Retiro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\TransactionTypeAdmin.Designer.vb">
+      <DependentUpon>TransactionTypeAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\TransactionTypeAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\UserTypeAdmin.Designer.vb">
+      <DependentUpon>UserTypeAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\UserTypeAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\AccountTypeAdmin.resx">
+      <DependentUpon>AccountTypeAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\ClienteAdmin.resx">
+      <DependentUpon>ClienteAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\CuentaAdmin.resx">
+      <DependentUpon>CuentaAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\MyAccount.resx">
+      <DependentUpon>MyAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\ReportesGenerales.resx">
+      <DependentUpon>ReportesGenerales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Retiro.resx">
+      <DependentUpon>Retiro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\TransactionTypeAdmin.resx">
+      <DependentUpon>TransactionTypeAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\UserTypeAdmin.resx">
+      <DependentUpon>UserTypeAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

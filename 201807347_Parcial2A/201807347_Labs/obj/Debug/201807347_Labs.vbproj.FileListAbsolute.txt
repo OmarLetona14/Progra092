@@ -1,0 +1,12 @@
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\bin\Debug\201807347_Labs.exe.config
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\bin\Debug\201807347_Labs.exe
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\bin\Debug\201807347_Labs.pdb
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\bin\Debug\201807347_Labs.xml
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\201807347_Labs.vbprojAssemblyReference.cache
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\_201807347_Labs.Form1.resources
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\_201807347_Labs.Resources.resources
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\201807347_Labs.vbproj.GenerateResource.cache
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\201807347_Labs.vbproj.CoreCompileInputs.cache
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\201807347_Labs.exe
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\201807347_Labs.xml
+C:\Users\omarl\Desktop\Progra 092\201807347_Parcial2A\201807347_Labs\obj\Debug\201807347_Labs.pdb

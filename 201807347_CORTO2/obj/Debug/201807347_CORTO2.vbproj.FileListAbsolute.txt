@@ -1,0 +1,12 @@
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\201807347_CORTO2.vbprojAssemblyReference.cache
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\_201807347_CORTO2.Form1.resources
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\_201807347_CORTO2.Resources.resources
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\201807347_CORTO2.vbproj.GenerateResource.cache
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\201807347_CORTO2.vbproj.CoreCompileInputs.cache
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\bin\Debug\201807347_CORTO2.exe.config
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\bin\Debug\201807347_CORTO2.exe
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\bin\Debug\201807347_CORTO2.pdb
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\bin\Debug\201807347_CORTO2.xml
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\201807347_CORTO2.exe
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\201807347_CORTO2.xml
+C:\Users\omarl\Desktop\Progra 092\201807347_CORTO2\obj\Debug\201807347_CORTO2.pdb
